@@ -21,3 +21,9 @@ dotnet ef dbcontext scaffold "Data Source=(localdb)\MSSQLLocalDB; Initial Catalo
 ```
 dotnet ef dbcontext scaffold "Name=ConnectionStrings:NorthwindSlimContext" Microsoft.EntityFrameworkCore.SqlServer -o Models --context-dir Contexts -c NorthwindSlimContext -f --startup-project ../WebApplication1
 ```
+
+### After adding Handlebars templates package:
+
+> **Note**: Switch to `add-handlebars` branch.
+
+`System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\anthonysneed\source\repos\ConStringNameTest\WebApplication1\bin\Debug\net6.0\CodeTemplates\CSharpDbContext\Partials\DbImports.hbs'.`
